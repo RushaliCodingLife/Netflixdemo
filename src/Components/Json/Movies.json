@@ -1,0 +1,150 @@
+[
+  {
+    "Id": "1",
+    "MovieName": "Insidious",
+    "Duration": "1h 43m",
+    "MovieDesc": "The story centers on a married couple whose boy inexplicably enters a comatose state and becomes a vessel for a variety of demonic entities in an astral plane.",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BMTUxODU0NjQ2Nl5BMl5BanBnXkFtZTgwMTc4NDQ0MzI@._V1_FMjpg_UX1000_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=zuZnRUcoWos",
+    "Rating": "5"
+  },
+  {
+    "Id": "2",
+    "MovieName": "Conjuring",
+    "Duration": "1h 52m",
+    "MovieDesc": "The film's relentlessly lame expository dialogue and tedious parade of jump scares are overwhelming in the worst way possible.",
+    "MovieImage": "https://www.dolby.com/siteassets/xf-site/content-detail-pages/the_conjuring_exclusive_art.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=k10ETZ41q5o",
+    "Rating": "5"
+  },
+
+  {
+    "Id": "3",
+    "MovieName": "National Treasure",
+    "Duration": "2h 11m",
+    "MovieDesc": "Benjamin Franklin Gates descends from a family of treasure-seekers who've all hunted for the same thing: a war chest hidden by the Founding Fathers after the Revolutionary War",
+    "MovieImage": "https://c8.alamy.com/comp/2JK4K98/nicolas-cage-poster-national-treasure-book-of-secrets-2007-2JK4K98.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=vqUPxNT8io4",
+    "Rating": "3.5"
+  },
+
+  {
+    "Id": "4",
+    "MovieName": "The Nun",
+    "Duration": "1h 44m",
+    "MovieDesc": "The Nun (stylized as †HE NUИ) is a 2018 American gothic supernatural horror film directed by Corin Hardy and written by Gary Dauberman.",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BMjM3NzQ5NDcxOF5BMl5BanBnXkFtZTgwNzM4MTQ5NTM@._V1_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=zwAM5UnGd2s&ab_channel=FilmSelectTrailer",
+    "Rating": "4.6"
+  },
+
+  {
+    "Id": "5",
+    "MovieName": "Money Heist",
+    "Duration": "70 min approx",
+    "MovieDesc": "Premise. Set in Madrid, a mysterious man known as the Professor recruits a group of eight people, who choose city names as their aliases, to carry out an ambitious plan that involves entering the Royal Mint of Spain, and escaping with €984 million.",
+    "MovieImage": "https://m.media-amazon.com/images/I/71QKqGokUrL._SY679_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=_InqQJRqGW4",
+    "Rating": "4.5"
+  },
+
+  {
+    "Id": "6",
+    "MovieName": "House Of Dragon",
+    "Duration": "54-68 minutes",
+    "MovieDesc": "An internal succession war within House Targaryen at the height of its power, 172 years before the birth of Daenerys Targaryen.",
+    "MovieImage": "https://cdn.shopify.com/s/files/1/0969/9128/products/HouseOfTheDragon_GoT_-TVShowPoster2_a84bc8b6-e2ad-419a-baa4-69ca2f4987a9.jpg?v=1664546358",
+    "MovieTrailer": "https://www.youtube.com/watch?v=fNwwt25mheo",
+    "Rating": "4.7"
+  },
+
+  {
+    "Id": "7",
+    "MovieName": "Twilight",
+    "Duration": "2h 2m",
+    "MovieDesc": "Edward is a vampire. Any normal person would just keep away from him, but Edward and Bella have fallen passionately and unconditionally in love with each other. And so begins their forbidden relationship between a human and a vampire.",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BMTcyMzUyMzY1OF5BMl5BanBnXkFtZTcwNDQ4ODk1OA@@._V1_FMjpg_UX1000_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=QDRLSqm_WVg",
+    "Rating": "4.1"
+  },
+
+  {
+    "Id": "8",
+    "MovieName": "UnderGround",
+    "Duration": "2h 50m",
+    "MovieDesc": "The film uses the epic story of two friends to portray a Yugoslav history from the beginning of World War II until the beginning of the Yugoslav Wars.",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BNzE2ZjQxNjEtNmI2ZS00ZmU0LTg4M2YtYzVhYmRiYWU0YzI1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=9fQkYPedyrI",
+    "Rating": "3.6"
+  },
+
+  {
+    "Id": "9",
+    "MovieName": "Wrong Turn",
+    "Duration": "1h 50m",
+    "MovieDesc": "Chris and a group of five friends are left stranded deep in the middle of the woods after their cars collide",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BMGEzNGFlYjUtYjRhYy00ZWI5LWI0N2ItMGY3ZThhZTAwZjY2L2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=Cgbd_a49Iwc",
+    "Rating": "3.9"
+  },
+
+  {
+    "Id": "10",
+    "MovieName": "Willow",
+    "Duration": "2h 6m",
+    "MovieDesc": "On an unnamed fantasy world, the evil sorceress Queen Bavmorda of Nockmaar hears of a prophecy that a child with a special",
+    "MovieImage": "https://i.ebayimg.com/images/g/J6oAAOSwbPJjYMla/s-l400.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=da7BYWyvwO8",
+    "Rating": "3.0"
+  },
+
+  {
+    "Id": "11",
+    "MovieName": "Annabelle",
+    "Duration": "1h 39m",
+    "MovieDesc": "The actual doll exists locked up in an occult museum in Connecticut—supposedly visited twice a month by a priest who blesses her. ",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BOTQwZmQyYzEtODk5ZC00OTY3LWExMjAtYzRjNWFhNGM3MzBlXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=paFgQNPGlsg",
+    "Rating": "4.5"
+  },
+
+  {
+    "Id": "12",
+    "MovieName": "The NightMare",
+    "Duration": "1h 30m",
+    "MovieDesc": "After attending a rave party, a teenage girl forms a bond with a strange monster as she suffers a slow chaotic mental breakdown.",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BODIxMTQ0NTIxM15BMl5BanBnXkFtZTcwMzY1NDAyMw@@._V1_FMjpg_UX1000_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=DoPsjWqvwT4",
+    "Rating": "4.1"
+  },
+
+  {
+    "Id": "13",
+    "MovieName": "Old 2021",
+    "Duration": "1h 48m",
+    "MovieDesc": "A vacationing family discovers that the secluded beach where they're relaxing for a few hours is somehow causing them to age rapidly, reducing their entire lives into a single day. ",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BMjJjZGRhM2YtNTU4NC00OWMwLThhYWUtMWUxNDNhMDZlOTNmXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=DoPsjWqvwT4",
+    "Rating": "5"
+  },
+
+  {
+    "Id": "14",
+    "MovieName": "Taxes Chainsaw",
+    "Duration": "1h 23m",
+    "MovieDesc": "The film follows a group of friends who fall victim to a family of cannibals while on their way to visit an old homestead.",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BMDU4Yzk1NmUtNDU4OC00YzVmLTgwOTUtYTY2NjNmMjY5YjVmXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=zcI6SFiK_yk",
+    "Rating": "4.5"
+  },
+
+  {
+    "Id": "15",
+    "MovieName": "Fast & Furious",
+    "Duration": "1h 46m",
+    "MovieDesc": "Dominic Toretto is a gang leader who is accused of hijacking trucks and stealing over a million dollars worth of electronic equipment.",
+    "MovieImage": "https://images.moviesanywhere.com/63766f8889b39eef193ba444260d8b1b/94ef792d-94da-4844-b8fb-3feac84b45c2.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=BCg9R_MGZKg",
+    "Rating": "4.8"
+  }
+]

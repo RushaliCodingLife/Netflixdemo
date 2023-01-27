@@ -1,0 +1,286 @@
+[
+  {
+    "Id": "1",
+    "MovieName": "Insidious",
+    "Duration": "1h 43m",
+    "MovieDesc": "The story centers on a married couple whose boy inexplicably enters a comatose state and becomes a vessel for a variety of demonic entities in an astral plane.",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BMTUxODU0NjQ2Nl5BMl5BanBnXkFtZTgwMTc4NDQ0MzI@._V1_FMjpg_UX1000_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=zuZnRUcoWos",
+    "Rating": "5"
+  },
+  {
+    "Id": "2",
+    "MovieName": "Conjuring",
+    "Duration": "1h 52m",
+    "MovieDesc": "The film's relentlessly lame expository dialogue and tedious parade of jump scares are overwhelming in the worst way possible.",
+    "MovieImage": "https://www.dolby.com/siteassets/xf-site/content-detail-pages/the_conjuring_exclusive_art.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=k10ETZ41q5o",
+    "Rating": "5"
+  },
+
+  {
+    "Id": "3",
+    "MovieName": "National Treasure",
+    "Duration": "2h 11m",
+    "MovieDesc": "Benjamin Franklin Gates descends from a family of treasure-seekers who've all hunted for the same thing: a war chest hidden by the Founding Fathers after the Revolutionary War",
+    "MovieImage": "https://c8.alamy.com/comp/2JK4K98/nicolas-cage-poster-national-treasure-book-of-secrets-2007-2JK4K98.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=vqUPxNT8io4",
+    "Rating": "3.5"
+  },
+
+  {
+    "Id": "4",
+    "MovieName": "The Nun",
+    "Duration": "1h 44m",
+    "MovieDesc": "The Nun (stylized as †HE NUИ) is a 2018 American gothic supernatural horror film directed by Corin Hardy and written by Gary Dauberman.",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BMjM3NzQ5NDcxOF5BMl5BanBnXkFtZTgwNzM4MTQ5NTM@._V1_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=zwAM5UnGd2s&ab_channel=FilmSelectTrailer",
+    "Rating": "4.6"
+  },
+
+  {
+    "Id": "5",
+    "MovieName": "Money Heist",
+    "Duration": "70 min approx",
+    "MovieDesc": "Premise. Set in Madrid, a mysterious man known as the Professor recruits a group of eight people, who choose city names as their aliases, to carry out an ambitious plan that involves entering the Royal Mint of Spain, and escaping with €984 million.",
+    "MovieImage": "https://m.media-amazon.com/images/I/71QKqGokUrL._SY679_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=_InqQJRqGW4",
+    "Rating": "4.5"
+  },
+
+  {
+    "Id": "6",
+    "MovieName": "House Of Dragon",
+    "Duration": "54-68 minutes",
+    "MovieDesc": "An internal succession war within House Targaryen at the height of its power, 172 years before the birth of Daenerys Targaryen.",
+    "MovieImage": "https://cdn.shopify.com/s/files/1/0969/9128/products/HouseOfTheDragon_GoT_-TVShowPoster2_a84bc8b6-e2ad-419a-baa4-69ca2f4987a9.jpg?v=1664546358",
+    "MovieTrailer": "https://www.youtube.com/watch?v=fNwwt25mheo",
+    "Rating": "4.7"
+  },
+
+  {
+    "Id": "7",
+    "MovieName": "Twilight",
+    "Duration": "2h 2m",
+    "MovieDesc": "Edward is a vampire. Any normal person would just keep away from him, but Edward and Bella have fallen passionately and unconditionally in love with each other. And so begins their forbidden relationship between a human and a vampire.",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BMTcyMzUyMzY1OF5BMl5BanBnXkFtZTcwNDQ4ODk1OA@@._V1_FMjpg_UX1000_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=QDRLSqm_WVg",
+    "Rating": "4.1"
+  },
+
+  {
+    "Id": "8",
+    "MovieName": "UnderGround",
+    "Duration": "2h 50m",
+    "MovieDesc": "The film uses the epic story of two friends to portray a Yugoslav history from the beginning of World War II until the beginning of the Yugoslav Wars.",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BNzE2ZjQxNjEtNmI2ZS00ZmU0LTg4M2YtYzVhYmRiYWU0YzI1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=9fQkYPedyrI",
+    "Rating": "3.6"
+  },
+
+  {
+    "Id": "9",
+    "MovieName": "Wrong Turn",
+    "Duration": "1h 50m",
+    "MovieDesc": "Chris and a group of five friends are left stranded deep in the middle of the woods after their cars collide",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BMGEzNGFlYjUtYjRhYy00ZWI5LWI0N2ItMGY3ZThhZTAwZjY2L2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=Cgbd_a49Iwc",
+    "Rating": "3.9"
+  },
+
+  {
+    "Id": "10",
+    "MovieName": "Willow",
+    "Duration": "2h 6m",
+    "MovieDesc": "On an unnamed fantasy world, the evil sorceress Queen Bavmorda of Nockmaar hears of a prophecy that a child with a special",
+    "MovieImage": "https://i.ebayimg.com/images/g/J6oAAOSwbPJjYMla/s-l400.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=da7BYWyvwO8",
+    "Rating": "3.0"
+  },
+
+  {
+    "Id": "11",
+    "MovieName": "Annabelle",
+    "Duration": "1h 39m",
+    "MovieDesc": "The actual doll exists locked up in an occult museum in Connecticut—supposedly visited twice a month by a priest who blesses her. ",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BOTQwZmQyYzEtODk5ZC00OTY3LWExMjAtYzRjNWFhNGM3MzBlXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=paFgQNPGlsg",
+    "Rating": "4.5"
+  },
+
+  {
+    "Id": "12",
+    "MovieName": "The NightMare",
+    "Duration": "1h 30m",
+    "MovieDesc": "After attending a rave party, a teenage girl forms a bond with a strange monster as she suffers a slow chaotic mental breakdown.",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BODIxMTQ0NTIxM15BMl5BanBnXkFtZTcwMzY1NDAyMw@@._V1_FMjpg_UX1000_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=DoPsjWqvwT4",
+    "Rating": "4.1"
+  },
+
+  {
+    "Id": "13",
+    "MovieName": "Old 2021",
+    "Duration": "1h 48m",
+    "MovieDesc": "A vacationing family discovers that the secluded beach where they're relaxing for a few hours is somehow causing them to age rapidly, reducing their entire lives into a single day. ",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BMjJjZGRhM2YtNTU4NC00OWMwLThhYWUtMWUxNDNhMDZlOTNmXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=DoPsjWqvwT4",
+    "Rating": "5"
+  },
+
+  {
+    "Id": "14",
+    "MovieName": "Taxes Chainsaw",
+    "Duration": "1h 23m",
+    "MovieDesc": "The film follows a group of friends who fall victim to a family of cannibals while on their way to visit an old homestead.",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BMDU4Yzk1NmUtNDU4OC00YzVmLTgwOTUtYTY2NjNmMjY5YjVmXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=zcI6SFiK_yk",
+    "Rating": "4.5"
+  },
+
+  {
+    "Id": "15",
+    "MovieName": "Fast & Furious",
+    "Duration": "1h 46m",
+    "MovieDesc": "Dominic Toretto is a gang leader who is accused of hijacking trucks and stealing over a million dollars worth of electronic equipment.",
+    "MovieImage": "https://images.moviesanywhere.com/63766f8889b39eef193ba444260d8b1b/94ef792d-94da-4844-b8fb-3feac84b45c2.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=BCg9R_MGZKg",
+    "Rating": "4.8"
+  },
+
+  {
+    "Id": "16",
+    "MovieName": "Thor: Ragnarok",
+    "Duration": "2h 10m",
+    "MovieDesc": "Away from his hometown of Asgard, Thor falls into the clutches of the fire demon Surtur, from which he finds it difficult to free himself without his hammer Mjölnir.",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_FMjpg_UX1000_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=ue80QwXMRHg",
+    "Rating": "4.7"
+  },
+  {
+    "Id": "17",
+    "MovieName": "Captain America: Civil War",
+    "Duration": "2h 27m",
+    "MovieDesc": " Marvel's Captain America: Civil War finds Steve Rogers leading the newly formed team of Avengers in their continued efforts to safeguard humanity.",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=dKrVegVI0Us",
+    "Rating": "4.6"
+  },
+  {
+    "Id": "18",
+    "MovieName": "Avengers: Endgame",
+    "Duration": "3h 2m",
+    "MovieDesc": "AVENGERS: ENDGAME is set after Thanos' catastrophic use of the Infinity Stones randomly wiped out half of Earth's population in Avengers: Infinity War. T",
+    "MovieImage": "https://wallpaper.srkh.in/wp-content/uploads/2022/03/Avengers-Endgame-Wallpaper-Movie-poster-Marvel-Superhero-for-Android-Mobile-Phone.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=TcMBFSGVi1c",
+    "Rating": "4.7"
+  },
+  {
+    "Id": "19",
+    "MovieName": "Ant-Man and the Wasp: Quantumania",
+    "Duration": "2h 5m",
+    "MovieDesc": "Ant-Man and the Wasp: Quantumania is an upcoming superhero film, based on the Marvel Comics superheroes of the same names. ",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BZDY0Mjg1OTEtMDEyNS00OWM0LTg0YTYtNjA3YzY2NGRjYWJiXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1000_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=ZlNFpri-Y40",
+    "Rating": "4.8"
+  },
+  {
+    "Id": "20",
+    "MovieName": "The Gaurdians of galaxy vol. III",
+    "Duration": "2h 10m",
+    "MovieDesc": "Guardians of the Galaxy Vol 3 - Everything you need to know about Guardians of the Galaxy 3, including release date, cast, trailer and plot.",
+    "MovieImage": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6508d53d-9f08-4740-a8a1-d26e4506f78a/detgxzi-6277fddb-9d41-4d09-8854-5f3407b3efa6.jpg/v1/fill/w_1280,h_1811,q_75,strp/guardians_of_the_galaxy_vol_3_poster_by_marvelmango_detgxzi-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTgxMSIsInBhdGgiOiJcL2ZcLzY1MDhkNTNkLTlmMDgtNDc0MC1hOGExLWQyNmU0NTA2Zjc4YVwvZGV0Z3h6aS02Mjc3ZmRkYi05ZDQxLTRkMDktODg1NC01ZjM0MDdiM2VmYTYuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.yeJTCLtpExnAbGlzWCsXBcOgXzj1yYVXZeNOwDE-nc8",
+    "MovieTrailer": "https://www.youtube.com/watch?v=u3V5KDHRQvk",
+    "Rating": ""
+  },
+  {
+    "Id": "21",
+    "MovieName": "Moon Knight",
+    "Duration": "8h",
+    "MovieDesc": "Moon Knight follows Steven Grant, a mild-mannered gift-shop employee, who becomes plagued with blackouts and memories of another life.",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BYTc5OWNhYjktMThlOS00ODUxLTgwNDQtZjdjYjkyM2IwZTZlXkEyXkFqcGdeQXVyNTA3MTU2MjE@._V1_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=x7Krla_UxRg",
+    "Rating": "4.5"
+  },
+  {
+    "Id": "22",
+    "MovieName": "Spider-Man: No Way Home",
+    "Duration": "2h 28m",
+    "MovieDesc": "Spider-Man: No Way Home is a 2021 superhero film, based on the Marvel Comics superhero of the same name. The film is a sequel to Spider-Man: Homecoming and Spider-Man: Far From Home, as well as a crossover/sequel to the Spider-Man trilogy and The Amazing Spider-Man duology.",
+    "MovieImage": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a58a7719-0dcf-4e0b-b7bb-d2b725dbbb8e/deovlcr-d3c60439-def3-4348-8f15-24d8c9cfed7d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2E1OGE3NzE5LTBkY2YtNGUwYi1iN2JiLWQyYjcyNWRiYmI4ZVwvZGVvdmxjci1kM2M2MDQzOS1kZWYzLTQzNDgtOGYxNS0yNGQ4YzljZmVkN2QucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.NwnLn52cQL9povHO5-bosQRbEm_q--cMHaH6qNLmuDE",
+    "MovieTrailer": "https://www.youtube.com/watch?v=iaD2f2O9wGk",
+    "Rating": "4.8"
+  },
+  {
+    "Id": "23",
+    "MovieName": "She Hulk",
+    "Duration": "7h",
+    "MovieDesc": "She-Hulk is extraordinarily strong and tough, able to leap great heights, and hold her own in a physical fight against some of the most formidable powerhouses on Earth.",
+    "MovieImage": "https://wallpapercave.com/wp/wp11405588.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=u7JsKhI2An0",
+    "Rating": "2.0"
+  },
+  {
+    "Id": "24",
+    "MovieName": "Miss Marvel",
+    "Duration": "6h",
+    "MovieDesc": "Marvel Studios' Ms. Marvel is a new, original series that introduces Kamala Khan, a Muslim American teenager growing up in Jersey City.",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BZmQ3OTZkNDUtNTU0Mi00ZjE4LTgyNTUtY2E4NWRmNDUxMzkyXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=m9EX0f6V11Y",
+    "Rating": "3.4"
+  },
+  {
+    "Id": "25",
+    "MovieName": "Agent of sheild",
+    "Duration": "12h",
+    "MovieDesc": "This is a world of superheroes, aliens and the unusual – of action, spectacle and world-spanning stories. ",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BMTkwODYyMjgzOV5BMl5BanBnXkFtZTgwODAzMTE5MjE@._V1_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=T3T-evQZiQo",
+    "Rating": "4.8"
+  },
+  {
+    "Id": "26",
+    "MovieName": "Luke Cage",
+    "Duration": "6h",
+    "MovieDesc": "After developing bulletproof skin from a failed prison experiment, Luke Cage uses his power to protect the people of New York. Incredibly strong with skin like steel, Luke Cage is the super-powered defender of the streets of Harlem.",
+    "MovieImage": "https://i.ebayimg.com/images/g/0zcAAOSw56pbPnoX/s-l1600.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=ORa4hPhGrpo",
+    "Rating": "4.0"
+  },
+  {
+    "Id": "27",
+    "MovieName": "Dare Devil",
+    "Duration": "6h",
+    "MovieDesc": "this super rich businessman was on his way to become the most powerful political figure in the whole city of New York. ",
+    "MovieImage": "https://cdna.artstation.com/p/assets/images/images/052/346/250/large/rahal-nejraoui-dardevil-fanart-by-rahalarts.jpg?1659553405",
+    "MovieTrailer": "https://www.youtube.com/watch?v=jAy6NJ_D5vU",
+    "Rating": "4.8"
+  },
+  {
+    "Id": "28",
+    "MovieName": "Cloak & Dagger",
+    "Duration": "1h 41m",
+    "MovieDesc": "Two teenagers from very different backgrounds find themselves burdened and awakened to newly acquired superpowers while growing closer together every day.",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BNTU4NzU2OTc5NF5BMl5BanBnXkFtZTgwMDg3MzA0NzM@._V1_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=zW_4nKoIvbw",
+    "Rating": "4.3"
+  },
+  {
+    "Id": "29",
+    "MovieName": "Iron Man",
+    "Duration": "2h 6m",
+    "MovieDesc": "2008's Iron Man tells the story of Tony Stark, a billionaire industrialist and genius inventor who is kidnapped and forced to build a devastating weapon.",
+    "MovieImage": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/fe0f63104621721.5f675c7a0b983.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=8ugaeA-nMTc",
+    "Rating": "4.7"
+  },
+  {
+    "Id": "30",
+    "MovieName": "Shang-Chi and the Legend of the Ten Rings",
+    "Duration": " 2h 12m",
+    "MovieDesc": "Marvel Studios' SHANG-CHI AND THE LEGEND OF THE TEN RINGS stars Simu Liu, Awkwafina and Tony Leung. Directed by Destin Daniel Cretton.",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BNTliYjlkNDQtMjFlNS00NjgzLWFmMWEtYmM2Mzc2Zjg3ZjEyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+    "MovieTrailer": "https://www.youtube.com/watch?v=8YjFbMbfXaQ",
+    "Rating": "4.6"
+  }
+]
