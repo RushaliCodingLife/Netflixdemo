@@ -21,9 +21,8 @@ import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import HomeIcon from "@mui/icons-material/Home";
 import MovieIcon from "@mui/icons-material/Movie";
 import MenuIcon from "@mui/icons-material/Menu";
-import './NavBar.css'
-import Home from "../Home/Home";
-
+import "./NavBar.css";
+import { Link } from "react-router-dom";
 
 const drawerWidth = 240;
 
@@ -111,9 +110,8 @@ export default function MiniDrawer() {
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
-      <AppBar position="fixed" open={open} sx={{background:"#c80000"}}>
+      <AppBar position="fixed" open={open} sx={{ background: "#c80000" }}>
         <Toolbar>
-
           {/* Menu Button */}
           <IconButton
             color="inherit"
@@ -128,13 +126,21 @@ export default function MiniDrawer() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap component="div">
-            <img src={require('../Util/logo.png')} height='80px' width='300px' alt="Netflix Logo" />
+            <img
+              src={require("../Util/logo.png")}
+              height="80px"
+              width="300px"
+              alt="Netflix Logo"
+            />
           </Typography>
         </Toolbar>
       </AppBar>
       <Drawer variant="permanent" open={open}>
         <DrawerHeader>
-          <IconButton sx={{color:"#c80000", fontSize:"20px" }} onClick={handleDrawerClose}>
+          <IconButton
+            sx={{ color: "#c80000", fontSize: "20px" }}
+            onClick={handleDrawerClose}
+          >
             {theme.direction === "rtl" ? (
               <ChevronRightIcon />
             ) : (
@@ -143,130 +149,154 @@ export default function MiniDrawer() {
           </IconButton>
         </DrawerHeader>
         <Divider />
-        <List  sx={{marginTop:"200px" }}>
-          <ListItem  disablePadding sx={{ display: "block" }}>
-
+        <List sx={{ marginTop: "200px" }}>
+          <ListItem disablePadding sx={{ display: "block" }}>
             {/* Search Button */}
+            <Link to='/search' className="Button">
             <ListItemButton
               sx={{
                 minHeight: 48,
                 justifyContent: open ? "initial" : "center",
                 px: 2.5,
-                
               }}
             >
               <ListItemIcon
+                  className="Icon_hover"
                 sx={{
-                  minWidth: 0,  
+                  minWidth: 0,
                   mr: open ? 3 : "auto",
                   justifyContent: "center",
-                  color:"#c80000"
+                  color: "#c80000",
                 }}
+            
               >
                 <SearchIcon />
               </ListItemIcon>
-              <ListItemText primary='Search' sx={{ opacity: open ? 1 : 0 ,color:"#c80000" }} />
+              <ListItemText
+                    className="Icon_hover"
+                primary="Search"
+                sx={{ opacity: open ? 1 : 0, color: "#c80000" }}
+              />
             </ListItemButton>
+            </Link>
 
-  {/* Home Button */}
-            <ListItemButton
-              sx={{
-                minHeight: 48,
-                justifyContent: open ? "initial" : "center",
-                px: 2.5,
-                marginTop:"30px"
-              }}
-            >
-              <ListItemIcon
+            {/* Home Button */}
+            <Link to="/" className="Button">
+              <ListItemButton
                 sx={{
-                  minWidth: 0,
-                  mr: open ? 3 : "auto",
-                  justifyContent: "center",
-                  color:"#c80000"
-  
+                  minHeight: 48,
+                  justifyContent: open ? "initial" : "center",
+                  px: 2.5,
+                  marginTop: "30px",
                 }}
               >
-                <HomeIcon />
-              </ListItemIcon>
-              <ListItemText primary='Home' sx={{ opacity: open ? 1 : 0, color:"#c80000" }} />
-            </ListItemButton>
+                <ListItemIcon
+                      className="Icon_hover"
+                  sx={{
+                    minWidth: 0,
+                    mr: open ? 3 : "auto",
+                    justifyContent: "center",
+                    color: "#c80000",
+                  }}
+                >
+                  <HomeIcon />
+                </ListItemIcon>
+                <ListItemText
+                      className="Icon_hover"
+                  primary="Home"
+                  sx={{ opacity: open ? 1 : 0, color: "#c80000" }}
+                />
+              </ListItemButton>
+            </Link>
 
-  {/* Live TV Button */}
-            <ListItemButton
-              sx={{
-                minHeight: 48,
-                justifyContent: open ? "initial" : "center",
-                px: 2.5,
-                marginTop:"30px"
-              }}
-            >
-              <ListItemIcon
+            {/* Live TV Button */}
+            <Link to="/tvshows" className="Button">
+              <ListItemButton
                 sx={{
-                  minWidth: 0,
-                  mr: open ? 3 : "auto",
-                  justifyContent: "center",
-                  color:"#c80000"
+                  minHeight: 48,
+                  justifyContent: open ? "initial" : "center",
+                  px: 2.5,
+                  marginTop: "30px",
                 }}
+        
               >
-                <LiveTvIcon />
-              </ListItemIcon>
-              <ListItemText primary='Tv Show' sx={{ opacity: open ? 1 : 0, color:"#c80000" }} />
-            </ListItemButton>
+                <ListItemIcon
+                  sx={{
+                    minWidth: 0,
+                    mr: open ? 3 : "auto",
+                    justifyContent: "center",
+                    color: "#c80000",
+                  }}
+                  className="Icon_hover"
+                >
+                  <LiveTvIcon />
+                </ListItemIcon>
+                <ListItemText
+                      className="Icon_hover"
+                  primary="Tv Show"
+                  sx={{ opacity: open ? 1 : 0, color: "#c80000" }}
+                />
+              </ListItemButton>
+            </Link>
 
-
-  {/* Calendar Button */}
+            {/* Calendar Button */}
             <ListItemButton
               sx={{
                 minHeight: 48,
                 justifyContent: open ? "initial" : "center",
                 px: 2.5,
-                marginTop:"30px"
+                marginTop: "30px",
               }}
             >
               <ListItemIcon
+                    className="Icon_hover"
                 sx={{
                   minWidth: 0,
                   mr: open ? 3 : "auto",
                   justifyContent: "center",
-                  color:"#c80000"
+                  color: "#c80000",
                 }}
               >
                 <CalendarMonthIcon />
               </ListItemIcon>
-              <ListItemText primary='calender' sx={{ opacity: open ? 1 : 0 ,color:"#c80000" }} />
+              <ListItemText
+                    className="Icon_hover"
+                primary="calender"
+                sx={{ opacity: open ? 1 : 0, color: "#c80000" }}
+              />
             </ListItemButton>
 
-
-              {/* Movie Button */}
-
-            <ListItemButton
-              sx={{
-                minHeight: 48,
-                justifyContent: open ? "initial" : "center",
-                px: 2.5,
-                marginTop:"30px",
-          
-              }}
-            >
-              <ListItemIcon
+            {/* Movie Button */}
+            <Link to="/movie" className="Button">
+              <ListItemButton
                 sx={{
-                  minWidth: 0,
-                  mr: open ? 3 : "auto",
-                  justifyContent: "center",
-                  color:"#c80000"
+                  minHeight: 48,
+                  justifyContent: open ? "initial" : "center",
+                  px: 2.5,
+                  marginTop: "30px",
                 }}
               >
-                <MovieIcon />
-              </ListItemIcon>
-              <ListItemText primary='Movies' sx={{ opacity: open ? 1 : 0 ,color:"#c80000" }} />
-            </ListItemButton>
+                <ListItemIcon
+                      className="Icon_hover"
+                  sx={{
+                    minWidth: 0,
+                    mr: open ? 3 : "auto",
+                    justifyContent: "center",
+                    color: "#c80000",
+                  }}
+                >
+                  <MovieIcon />
+                </ListItemIcon>
+                <ListItemText
+                      className="Icon_hover"
+                  primary="Movies"
+                  sx={{ opacity: open ? 1 : 0, color: "#c80000" }}
+                />
+              </ListItemButton>
+            </Link>
           </ListItem>
         </List>
       </Drawer>
-      <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
-        <DrawerHeader />
-        <Home/>
-      </Box>
     </Box>
   );
 }

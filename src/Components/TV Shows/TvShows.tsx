@@ -1,26 +1,21 @@
-import React, { useEffect, useState } from "react";
-import NetFlix from "../Json/NetFlix.json";
+import React, {useState } from "react";
+import TvShow from '../Json/TvShows.json'
 import CardContent from "@mui/material/CardContent";
 import {
   Box,
-  Button,
   CardMedia,
   Dialog,
-  DialogActions,
   DialogContent,
   DialogContentText,
   DialogTitle,
   Typography,
 } from "@mui/material";
-import axios from "axios";
-import "./Home.css";
-// import DialogBox from "../Json/DialogBox.json";
 import ReactPlayer from "react-player";
 import CloseIcon from "@mui/icons-material/Close";
 
 
 function Home() {
-  const [user, setUser] = useState(NetFlix);
+  const [user] = useState(TvShow);
   console.log(user);
 
   const [dialog, setDialog] = useState<any | null>();
@@ -50,7 +45,7 @@ function Home() {
 
         {user.map((value) => (
           <Box
-            className="card"
+            // className="card"
             margin={2}
             display="flex"
             flexDirection={"column"}

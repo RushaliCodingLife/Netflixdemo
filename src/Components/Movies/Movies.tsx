@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import NetFlix from "../Json/NetFlix.json";
+import Movies from '../Json/Movies.json'
 import CardContent from "@mui/material/CardContent";
 import {
   Box,
@@ -13,14 +13,13 @@ import {
   Typography,
 } from "@mui/material";
 import axios from "axios";
-import "./Home.css";
 // import DialogBox from "../Json/DialogBox.json";
 import ReactPlayer from "react-player";
 import CloseIcon from "@mui/icons-material/Close";
 
 
 function Home() {
-  const [user, setUser] = useState(NetFlix);
+  const [user, setUser] = useState(Movies);
   console.log(user);
 
   const [dialog, setDialog] = useState<any | null>();
