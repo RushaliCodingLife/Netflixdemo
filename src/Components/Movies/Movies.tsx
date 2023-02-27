@@ -1,22 +1,17 @@
-import React, { useEffect, useState } from "react";
-import Movies from '../Json/Movies.json'
+import React, { useState } from "react";
+import Movies from "../Json/Movies.json";
 import CardContent from "@mui/material/CardContent";
 import {
   Box,
-  Button,
   CardMedia,
   Dialog,
-  DialogActions,
   DialogContent,
   DialogContentText,
   DialogTitle,
   Typography,
 } from "@mui/material";
-import axios from "axios";
-// import DialogBox from "../Json/DialogBox.json";
 import ReactPlayer from "react-player";
 import CloseIcon from "@mui/icons-material/Close";
-
 
 function Home() {
   const [user, setUser] = useState(Movies);
@@ -37,13 +32,14 @@ function Home() {
   };
 
   return (
-
-
     <Box marginLeft={20} marginTop={15}>
       <Box className="row" display={"flex"}>
         <Box flex={"row"}>
           <Typography color={"white"} marginLeft={4} marginTop={2} variant="h6">
-            Netflix Orignals{" "}
+            Netflix Orignals:
+          </Typography>
+          <Typography color={"white"} marginLeft={4} marginTop={2} variant="h6">
+            TvShows
           </Typography>
         </Box>
 
@@ -130,13 +126,13 @@ function Home() {
                         width="50px"
                         alt="Netflix Logo"
                       />
-                    </Box>{" "}
+                    </Box>
                     <Box
                       marginLeft={2}
                       marginTop={1}
                       sx={{ fontSize: "20px", fontWeight: 600 }}
                     >
-                      {dialog.Rating}{" "}
+                      {dialog.Rating}
                     </Box>
                     <Box marginLeft={2}>
                       <img

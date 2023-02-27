@@ -1,0 +1,152 @@
+[
+  {
+    "Id": 1,
+    "MovieName": "Insidious",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BMTUxODU0NjQ2Nl5BMl5BanBnXkFtZTgwMTc4NDQ0MzI@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "Id": 2,
+    "MovieName": "Conjuring",
+    "MovieImage": "https://www.dolby.com/siteassets/xf-site/content-detail-pages/the_conjuring_exclusive_art.jpg"
+  },
+  {
+    "Id": 3,
+    "MovieName": "National Treasure",
+    "MovieImage": "https://c8.alamy.com/comp/2JK4K98/nicolas-cage-poster-national-treasure-book-of-secrets-2007-2JK4K98.jpg"
+  },
+  {
+    "Id": 4,
+    "MovieName": "The Nun",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BMjM3NzQ5NDcxOF5BMl5BanBnXkFtZTgwNzM4MTQ5NTM@._V1_.jpg"
+  },
+  {
+    "Id": 5,
+    "MovieName": "Money Heist",
+    "MovieImage": "https://m.media-amazon.com/images/I/71QKqGokUrL._SY679_.jpg"
+  },
+  {
+    "Id": 6,
+    "MovieName": "House Of Dragon",
+    "MovieImage": "https://cdn.shopify.com/s/files/1/0969/9128/products/HouseOfTheDragon_GoT_-TVShowPoster2_a84bc8b6-e2ad-419a-baa4-69ca2f4987a9.jpg?v=1664546358"
+  },
+  {
+    "Id": 7,
+    "MovieName": "Twilight",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BMTcyMzUyMzY1OF5BMl5BanBnXkFtZTcwNDQ4ODk1OA@@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "Id": 8,
+    "MovieName": "UnderGround",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BNzE2ZjQxNjEtNmI2ZS00ZmU0LTg4M2YtYzVhYmRiYWU0YzI1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "Id": 9,
+    "MovieName": "Wrong Turn",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BMGEzNGFlYjUtYjRhYy00ZWI5LWI0N2ItMGY3ZThhZTAwZjY2L2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
+  },
+  {
+    "Id": 10,
+    "MovieName": "Willow",
+    "MovieImage": "https://i.ebayimg.com/images/g/J6oAAOSwbPJjYMla/s-l400.jpg"
+  },
+  {
+    "Id": 11,
+    "MovieName": "Annabelle",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BOTQwZmQyYzEtODk5ZC00OTY3LWExMjAtYzRjNWFhNGM3MzBlXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg"
+  },
+  {
+    "Id": 12,
+    "MovieName": "The NightMare",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BODIxMTQ0NTIxM15BMl5BanBnXkFtZTcwMzY1NDAyMw@@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "Id": 13,
+    "MovieName": "Old 2021",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BMjJjZGRhM2YtNTU4NC00OWMwLThhYWUtMWUxNDNhMDZlOTNmXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "Id": 14,
+    "MovieName": "Taxes Chainsaw",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BMDU4Yzk1NmUtNDU4OC00YzVmLTgwOTUtYTY2NjNmMjY5YjVmXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
+  },
+  {
+    "Id": 15,
+    "MovieName": "Fast &  Furious",
+    "MovieImage": "https://images.moviesanywhere.com/63766f8889b39eef193ba444260d8b1b/94ef792d-94da-4844-b8fb-3feac84b45c2.jpg"
+  },
+  {
+    "Id": 16,
+    "MovieName": "Thor:Ragnarok",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "Id": 17,
+    "MovieName": "Captain America : Civil War",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_.jpg"
+  },
+  {
+    "Id": 18,
+    "MovieName": "Avengers : Endgame",
+    "MovieImage": "https://wallpaper.srkh.in/wp-content/uploads/2022/03/Avengers-Endgame-Wallpaper-Movie-poster-Marvel-Superhero-for-Android-Mobile-Phone.jpg"
+  },
+  {
+    "Id": 19,
+    "MovieName": "Ant-Man and the Wasp: Quantumania ",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BZDY0Mjg1OTEtMDEyNS00OWM0LTg0YTYtNjA3YzY2NGRjYWJiXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "Id": 20,
+    "MovieName": "The Gaurdians of galaxy vol. III",
+    "MovieImage": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6508d53d-9f08-4740-a8a1-d26e4506f78a/detgxzi-6277fddb-9d41-4d09-8854-5f3407b3efa6.jpg/v1/fill/w_1280,h_1811,q_75,strp/guardians_of_the_galaxy_vol_3_poster_by_marvelmango_detgxzi-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTgxMSIsInBhdGgiOiJcL2ZcLzY1MDhkNTNkLTlmMDgtNDc0MC1hOGExLWQyNmU0NTA2Zjc4YVwvZGV0Z3h6aS02Mjc3ZmRkYi05ZDQxLTRkMDktODg1NC01ZjM0MDdiM2VmYTYuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.yeJTCLtpExnAbGlzWCsXBcOgXzj1yYVXZeNOwDE-nc8"
+  },
+  {
+    "Id": 21,
+    "MovieName": "Moon Knight",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BYTc5OWNhYjktMThlOS00ODUxLTgwNDQtZjdjYjkyM2IwZTZlXkEyXkFqcGdeQXVyNTA3MTU2MjE@._V1_.jpg"
+  },
+  {
+    "Id": 22,
+    "MovieName": "Spider-Man: No Way Home",
+    "MovieImage": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a58a7719-0dcf-4e0b-b7bb-d2b725dbbb8e/deovlcr-d3c60439-def3-4348-8f15-24d8c9cfed7d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2E1OGE3NzE5LTBkY2YtNGUwYi1iN2JiLWQyYjcyNWRiYmI4ZVwvZGVvdmxjci1kM2M2MDQzOS1kZWYzLTQzNDgtOGYxNS0yNGQ4YzljZmVkN2QucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.NwnLn52cQL9povHO5-bosQRbEm_q--cMHaH6qNLmuDE"
+  },
+  {
+    "Id": 23,
+    "MovieName": "She Hulk",
+    "MovieImage": "https://wallpapercave.com/wp/wp11405588.jpg"
+  },
+  {
+    "Id": 24,
+    "MovieName": "Miss Marvel",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BZmQ3OTZkNDUtNTU0Mi00ZjE4LTgyNTUtY2E4NWRmNDUxMzkyXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "Id": 25,
+    "MovieName": "Agent of sheild",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BMTkwODYyMjgzOV5BMl5BanBnXkFtZTgwODAzMTE5MjE@._V1_.jpg"
+  },
+  {
+    "Id": 26,
+    "MovieName": "Luke Cage",
+    "MovieImage": "https://i.ebayimg.com/images/g/0zcAAOSw56pbPnoX/s-l1600.jpg"
+  },
+  {
+    "Id": 27,
+    "MovieName": "Dare Devil",
+    "MovieImage": "https://cdna.artstation.com/p/assets/images/images/052/346/250/large/rahal-nejraoui-dardevil-fanart-by-rahalarts.jpg?1659553405"
+  },
+  {
+    "Id": 28,
+    "MovieName": "Claok & Dagger",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BNTU4NzU2OTc5NF5BMl5BanBnXkFtZTgwMDg3MzA0NzM@._V1_.jpg"
+  },
+  {
+    "Id": 29,
+    "MovieName": "Iron Man",
+    "MovieImage": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/fe0f63104621721.5f675c7a0b983.jpg"
+  },
+  {
+    "Id": 30,
+    "MovieName": "Shang-Chi and the Legend of the Ten Rings",
+    "MovieImage": "https://m.media-amazon.com/images/M/MV5BNTliYjlkNDQtMjFlNS00NjgzLWFmMWEtYmM2Mzc2Zjg3ZjEyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+  }
+]

@@ -152,32 +152,31 @@ export default function MiniDrawer() {
         <List sx={{ marginTop: "200px" }}>
           <ListItem disablePadding sx={{ display: "block" }}>
             {/* Search Button */}
-            <Link to='/search' className="Button">
-            <ListItemButton
-              sx={{
-                minHeight: 48,
-                justifyContent: open ? "initial" : "center",
-                px: 2.5,
-              }}
-            >
-              <ListItemIcon
-                  className="Icon_hover"
+            <Link to="/search" className="Button">
+              <ListItemButton
                 sx={{
-                  minWidth: 0,
-                  mr: open ? 3 : "auto",
-                  justifyContent: "center",
-                  color: "#c80000",
+                  minHeight: 48,
+                  justifyContent: open ? "initial" : "center",
+                  px: 2.5,
                 }}
-            
               >
-                <SearchIcon />
-              </ListItemIcon>
-              <ListItemText
-                    className="Icon_hover"
-                primary="Search"
-                sx={{ opacity: open ? 1 : 0, color: "#c80000" }}
-              />
-            </ListItemButton>
+                <ListItemIcon
+                  className="Icon_hover"
+                  sx={{
+                    minWidth: 0,
+                    mr: open ? 3 : "auto",
+                    justifyContent: "center",
+                    color: "#c80000",
+                  }}
+                >
+                  <SearchIcon />
+                </ListItemIcon>
+                <ListItemText
+                  className="Icon_hover"
+                  primary="Search"
+                  sx={{ opacity: open ? 1 : 0, color: "#c80000" }}
+                />
+              </ListItemButton>
             </Link>
 
             {/* Home Button */}
@@ -191,7 +190,7 @@ export default function MiniDrawer() {
                 }}
               >
                 <ListItemIcon
-                      className="Icon_hover"
+                  className="Icon_hover"
                   sx={{
                     minWidth: 0,
                     mr: open ? 3 : "auto",
@@ -202,7 +201,7 @@ export default function MiniDrawer() {
                   <HomeIcon />
                 </ListItemIcon>
                 <ListItemText
-                      className="Icon_hover"
+                  className="Icon_hover"
                   primary="Home"
                   sx={{ opacity: open ? 1 : 0, color: "#c80000" }}
                 />
@@ -218,7 +217,6 @@ export default function MiniDrawer() {
                   px: 2.5,
                   marginTop: "30px",
                 }}
-        
               >
                 <ListItemIcon
                   sx={{
@@ -232,7 +230,7 @@ export default function MiniDrawer() {
                   <LiveTvIcon />
                 </ListItemIcon>
                 <ListItemText
-                      className="Icon_hover"
+                  className="Icon_hover"
                   primary="Tv Show"
                   sx={{ opacity: open ? 1 : 0, color: "#c80000" }}
                 />
@@ -240,31 +238,33 @@ export default function MiniDrawer() {
             </Link>
 
             {/* Calendar Button */}
-            <ListItemButton
-              sx={{
-                minHeight: 48,
-                justifyContent: open ? "initial" : "center",
-                px: 2.5,
-                marginTop: "30px",
-              }}
-            >
-              <ListItemIcon
-                    className="Icon_hover"
+            <Link to="/calendar" className="Button">
+              <ListItemButton
                 sx={{
-                  minWidth: 0,
-                  mr: open ? 3 : "auto",
-                  justifyContent: "center",
-                  color: "#c80000",
+                  minHeight: 48,
+                  justifyContent: open ? "initial" : "center",
+                  px: 2.5,
+                  marginTop: "30px",
                 }}
               >
-                <CalendarMonthIcon />
-              </ListItemIcon>
-              <ListItemText
-                    className="Icon_hover"
-                primary="calender"
-                sx={{ opacity: open ? 1 : 0, color: "#c80000" }}
-              />
-            </ListItemButton>
+                <ListItemIcon
+                  className="Icon_hover"
+                  sx={{
+                    minWidth: 0,
+                    mr: open ? 3 : "auto",
+                    justifyContent: "center",
+                    color: "#c80000",
+                  }}
+                >
+                  <CalendarMonthIcon />
+                </ListItemIcon>
+                <ListItemText
+                  className="Icon_hover"
+                  primary="calender"
+                  sx={{ opacity: open ? 1 : 0, color: "#c80000" }}
+                />
+              </ListItemButton>
+            </Link>
 
             {/* Movie Button */}
             <Link to="/movie" className="Button">
@@ -277,7 +277,7 @@ export default function MiniDrawer() {
                 }}
               >
                 <ListItemIcon
-                      className="Icon_hover"
+                  className="Icon_hover"
                   sx={{
                     minWidth: 0,
                     mr: open ? 3 : "auto",
@@ -288,7 +288,7 @@ export default function MiniDrawer() {
                   <MovieIcon />
                 </ListItemIcon>
                 <ListItemText
-                      className="Icon_hover"
+                  className="Icon_hover"
                   primary="Movies"
                   sx={{ opacity: open ? 1 : 0, color: "#c80000" }}
                 />

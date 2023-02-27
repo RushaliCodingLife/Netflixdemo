@@ -1,8 +1,8 @@
 import * as React from "react";
 import TextField from "@mui/material/TextField";
-import Autocomplete from "@mui/material/Autocomplete";
 import {
   Box,
+  Rating,
   Table,
   TableBody,
   TableCell,
@@ -13,24 +13,30 @@ import {
 import "./Search.css";
 import NetFlix from "../Json/NetFlix.json";
 import { useState } from "react";
-import axios from "axios";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import MenuIcon from "@mui/icons-material/Menu";
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
+import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+
+
+const data = NetFlix;
+
 
 export default function Search() {
   const [user, setUser] = useState<any>(NetFlix);
-  console.log(user);
-  const [rows, setRows] = useState([]);
-  // const [rowdata, setRowdata] = useState([]);
+  console.log({ user });
   const [search, setSearch] = useState("");
+  const handleSearch = (e: any) => {
+    setSearch(e.target.value);
+  };
+  const getSearchData = (data, search) => {
+    return data.filter((item: any) =>
+      item.MovieName.toLowerCase().includes(search)
+    );
+  };
 
-  React.useEffect(() => {
-    axios.get("NetFlix").then((response) => {
-      setRows(response.data);
-    });
-  }, []);
 
   <Box sx={{ flexGrow: 1 }}>
     <Toolbar>
@@ -56,23 +62,18 @@ export default function Search() {
 
   return (
     <Box marginTop={20} marginLeft={20}>
-      <Autocomplete
-      disablePortal
-      id="combo-box-demo"
-      options={NetFlix}
-      onKeyUp={TableContainer}
-      // onInputChange={onInputChange}
-      getOptionLabel={(value:any) => value.MovieName}
-      sx={{ width: 600}}
-      renderInput={(value) => <TextField {...value} label="Movie" />}
-    />
-{/* 
-      <ReactSearchAutocomplete
-        autoFocus
-        items={NetFlix} 
-        onSearch={(e) => setSearch(e)}
-        onSelect={(value:any) => value.MovieName}
-      /> */}
+      <TextField
+        id="demo-helper-text-misaligned"
+        label="Movie Name"
+        onKeyUp={handleSearch}
+        variant="filled"
+        sx={{
+          minWidth: "600px",
+          backgroundColor: "white",
+          marginTop: "10px",
+          "& .MuiFilledInput-input": { color: "black" },
+        }}
+      />
 
       <TableContainer>
         <Table
@@ -100,12 +101,20 @@ export default function Search() {
                 Duration
               </TableCell>
               <TableCell className="Table_Data" align="center">
-                Rating
+                 <Box display={"flex"}>
+                 Rating 
+                <ArrowUpwardIcon />
+          {/* <ArrowDownwardIcon/> */}
+                </Box>
+              </TableCell>
+              <TableCell className="Table_Data" align="center">
+            
+
               </TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
-            {user.map((value: any) => (
+            {getSearchData(user, search).map((value: any) => (
               <TableRow key={value.Id}>
                 <TableCell component="td" align="center" className="Table_Data">
                   {value.Id}

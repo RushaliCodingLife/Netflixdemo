@@ -1,5 +1,5 @@
-import React, {useState } from "react";
-import TvShow from '../Json/TvShows.json'
+import React, { useState } from "react";
+import TvShow from "../Json/TvShows.json";
 import CardContent from "@mui/material/CardContent";
 import {
   Box,
@@ -12,7 +12,6 @@ import {
 } from "@mui/material";
 import ReactPlayer from "react-player";
 import CloseIcon from "@mui/icons-material/Close";
-
 
 function Home() {
   const [user] = useState(TvShow);
@@ -33,19 +32,19 @@ function Home() {
   };
 
   return (
-
-
     <Box marginLeft={20} marginTop={15}>
       <Box className="row" display={"flex"}>
         <Box flex={"row"}>
           <Typography color={"white"} marginLeft={4} marginTop={2} variant="h6">
-            Netflix Orignals{" "}
+            Netflix Orignals:
+          </Typography>
+          <Typography color={"white"} marginLeft={4} marginTop={2} variant="h6">
+            TvShows
           </Typography>
         </Box>
 
         {user.map((value) => (
           <Box
-            // className="card"
             margin={2}
             display="flex"
             flexDirection={"column"}
@@ -126,13 +125,13 @@ function Home() {
                         width="50px"
                         alt="Netflix Logo"
                       />
-                    </Box>{" "}
+                    </Box>
                     <Box
                       marginLeft={2}
                       marginTop={1}
                       sx={{ fontSize: "20px", fontWeight: 600 }}
                     >
-                      {dialog.Rating}{" "}
+                      {dialog.Rating}
                     </Box>
                     <Box marginLeft={2}>
                       <img
