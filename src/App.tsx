@@ -10,7 +10,8 @@ import Home from "./Components/Home/Home";
 import Movies from "./Components/Movies/Movies";
 import TvShow from "./Components/TV Shows/TvShows";
 import Search from "./Components/Search/Search";
-import CalendarData from "./Components/Calender/CalenderData";
+import CalenderData from "./Components/Calender/CalenderData";
+
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
           <Route path="/tvshows" element={<TvShow />} />
           <Route path="/movie" element={<Movies />} />
           <Route path="/search" element={<Search />} />
-          <Route path="/calendar" element={<CalendarData />} />
+          <Route path="/calendar" element={<CalenderData/>} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Router>

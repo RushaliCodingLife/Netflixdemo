@@ -24,6 +24,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import "./NavBar.css";
 import { Link } from "react-router-dom";
 
+
 const drawerWidth = 240;
 
 const openedMixin = (theme: Theme): CSSObject => ({
@@ -95,7 +96,8 @@ const Drawer = styled(MuiDrawer, {
   }),
 }));
 
-export default function MiniDrawer() {
+export default function NavBar() {
+
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
 
@@ -240,6 +242,7 @@ export default function MiniDrawer() {
             {/* Calendar Button */}
             <Link to="/calendar" className="Button">
               <ListItemButton
+              
                 sx={{
                   minHeight: 48,
                   justifyContent: open ? "initial" : "center",
@@ -256,7 +259,7 @@ export default function MiniDrawer() {
                     color: "#c80000",
                   }}
                 >
-                  <CalendarMonthIcon />
+                  <CalendarMonthIcon/>
                 </ListItemIcon>
                 <ListItemText
                   className="Icon_hover"
@@ -300,3 +303,5 @@ export default function MiniDrawer() {
     </Box>
   );
 }
+
+
